@@ -1,0 +1,86 @@
+spring:
+  application:
+    name: cineverse_backend
+
+  # mariaDB
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/cineverse_backend
+    username: DB username
+    password: DB password
+
+  # JPA
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  # Redis
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  # Mail
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: mail username
+    password: mail password
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+  # file size
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 510MB
+
+# logging
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.orm.jdbc.bind: trace
+
+# email exp
+auth:
+  email:
+    code-expiration-minutes: 5
+    verified-expiration-minutes: 10
+
+# JWT
+jwt:
+  secret: jwt secret
+  access-token-expiration-minutes: 30
+  refresh-token-expiration-days: 30
+
+cookie:
+  secure: false
+  same-site: Lax
+  refresh-token-expiration-days: 30
+
+# file
+file:
+  upload:
+    root-path: 파일 경로
+    image-max-size: 10485760 # 10MB
+    video-max-size: 524288000 # 500MB
+
+# toss payment
+toss:
+  payments:
+    secret-key: toss payments secret key
+
+# naver api
+naver:
+  news:
+    client-id: naver client id
+    client-secret: naver client secret key
+    url: https://naverapihub.apigw.ntruss.com/search/v1/news
