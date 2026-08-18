@@ -1,4 +1,4 @@
-# 🎬 Cineverse
+# Cineverse
 
 > 영화 콘텐츠 탐색부터 리뷰, 찜, 구독 및 결제까지 제공하는 영화 OTT 플랫폼
 
@@ -9,7 +9,7 @@
 
 <br>
 
-## 📌 프로젝트 소개
+## 프로젝트 소개
 
 Cineverse는 사용자가 다양한 영화 콘텐츠를 탐색하고 이용할 수 있는 웹 기반 OTT 플랫폼입니다.
 
@@ -19,15 +19,15 @@ Cineverse는 사용자가 다양한 영화 콘텐츠를 탐색하고 이용할 �
 
 <br>
 
-## 📅 개발 기간
+## 개발 기간
 
 ```text
-YYYY.MM.DD ~ YYYY.MM.DD
+2026.07.03 ~ 2026.08.17
 ```
 
 <br>
 
-## 👥 팀 구성
+## 팀 구성
 
 | 이름 | 역할 | 담당 기능 |
 |---|---|---|
@@ -43,7 +43,7 @@ YYYY.MM.DD ~ YYYY.MM.DD
 
 <br>
 
-## ✨ 주요 기능
+## 주요 기능
 
 ### 사용자 기능
 
@@ -73,7 +73,7 @@ YYYY.MM.DD ~ YYYY.MM.DD
 
 <br>
 
-## 🖥 화면 구성
+## 화면 구성
 
 | 메인 화면 | 콘텐츠 상세 |
 |---|---|
@@ -91,7 +91,7 @@ YYYY.MM.DD ~ YYYY.MM.DD
 
 <br>
 
-## 🛠 기술 스택
+## 기술 스택
 
 ### Backend
 
@@ -130,7 +130,7 @@ YYYY.MM.DD ~ YYYY.MM.DD
 
 <br>
 
-## 🏗 시스템 아키텍처
+## 시스템 아키텍처
 
 <!-- 시스템 구조 이미지를 추가하세요. -->
 
@@ -150,7 +150,7 @@ Spring Boot Server
 
 <br>
 
-## 🗂 ERD
+## ERD
 
 <!-- ERDCloud 또는 이미지 링크 -->
 
@@ -160,7 +160,7 @@ Spring Boot Server
 
 <br>
 
-## 📁 프로젝트 구조
+## 프로젝트 구조
 
 ### Backend
 
@@ -207,7 +207,7 @@ src
 
 <br>
 
-## 🔐 인증 흐름
+## 인증 흐름
 
 ```text
 로그인 요청
@@ -230,7 +230,7 @@ Access Token 만료 시 토큰 재발급
 
 <br>
 
-## 💳 결제 흐름
+## 결제 흐름
 
 ```text
 구독 상품 선택
@@ -246,7 +246,7 @@ Access Token 만료 시 토큰 재발급
 
 <br>
 
-## 📡 주요 API
+## 주요 API
 
 | 기능 | Method | Endpoint |
 |---|---:|---|
@@ -264,7 +264,7 @@ Access Token 만료 시 토큰 재발급
 
 <br>
 
-## 🚀 실행 방법
+## 실행 방법
 
 ### 요구사항
 
@@ -298,7 +298,7 @@ npm run dev
 
 <br>
 
-## ⚙️ 환경 설정
+## 환경 설정
 
 ### Backend
 
@@ -336,7 +336,7 @@ VITE_TOSS_CLIENT_KEY=
 
 <br>
 
-## 🧩 트러블슈팅
+## 트러블슈팅
 
 ### 문제 제목
 
@@ -354,7 +354,7 @@ VITE_TOSS_CLIENT_KEY=
 
 <br>
 
-## 🌱 개선 계획
+## 개선 계획
 
 - [ ] 콘텐츠 스트리밍 성능 개선
 - [ ] 검색 기능 고도화
@@ -366,15 +366,7 @@ VITE_TOSS_CLIENT_KEY=
 
 <br>
 
-## 🔗 Repository
+## Repository
 
 - [Cineverse Backend](https://github.com/sjrnfl1746/cineverse_backend)
 - [Cineverse Frontend](https://github.com/sjrnfl1746/cineverse_frontend)
-
-<br>
-
-## 📄 License
-
-```text
-작성 예정
-```
