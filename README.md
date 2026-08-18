@@ -1,0 +1,380 @@
+# 🎬 Cineverse
+
+> 영화 콘텐츠 탐색부터 리뷰, 찜, 구독 및 결제까지 제공하는 영화 OTT 플랫폼
+
+<!-- 프로젝트 대표 이미지 또는 로고 -->
+<p align="center">
+  <img src="프로젝트_대표_이미지_URL" alt="Cineverse" width="100%" />
+</p>
+
+<br>
+
+## 📌 프로젝트 소개
+
+Cineverse는 사용자가 다양한 영화 콘텐츠를 탐색하고 이용할 수 있는 웹 기반 OTT 플랫폼입니다.
+
+사용자는 회원가입과 로그인을 통해 콘텐츠를 검색하고, 리뷰와 평점을 작성하거나 관심 있는 콘텐츠를 찜 목록에 추가할 수 있습니다. 구독 상품 결제와 이벤트 참여 등의 기능도 제공합니다.
+
+관리자는 콘텐츠, 회원, 결제, 구독 상품, 이벤트 및 공지사항을 관리할 수 있습니다.
+
+<br>
+
+## 📅 개발 기간
+
+```text
+YYYY.MM.DD ~ YYYY.MM.DD
+```
+
+<br>
+
+## 👥 팀 구성
+
+| 이름 | 역할 | 담당 기능 |
+|---|---|---|
+| 이재욱 | Full-Stack | 회원 인증, 콘텐츠, 결제, 이벤트 |
+| 팀원 이름 | Backend | 담당 기능 |
+| 팀원 이름 | Frontend | 담당 기능 |
+
+<!-- 개인 프로젝트라면 아래처럼 작성 -->
+<!--
+- 개인 프로젝트
+- 기획, UI 구현, 백엔드 API 및 데이터베이스 설계
+-->
+
+<br>
+
+## ✨ 주요 기능
+
+### 사용자 기능
+
+- 회원가입 및 로그인
+- 이메일 인증
+- JWT 기반 인증과 토큰 재발급
+- 콘텐츠 목록 및 상세 조회
+- 장르별 콘텐츠 검색
+- 콘텐츠 평점 및 리뷰
+- 찜 목록 관리
+- 구독 상품 조회 및 결제
+- 영화 뉴스 조회
+- 공지사항 조회
+- 이벤트 및 당첨 결과 조회
+- 마이페이지 및 회원정보 관리
+
+### 관리자 기능
+
+- 회원 조회 및 상태 관리
+- 콘텐츠 등록, 수정 및 삭제
+- 이미지와 영상 파일 관리
+- 리뷰 관리
+- 구독 상품 및 결제 내역 관리
+- 공지사항 관리
+- 이벤트 및 당첨 결과 관리
+- 대시보드 통계 조회
+
+<br>
+
+## 🖥 화면 구성
+
+| 메인 화면 | 콘텐츠 상세 |
+|---|---|
+| 이미지 추가 | 이미지 추가 |
+
+| 구독 및 결제 | 관리자 대시보드 |
+|---|---|
+| 이미지 추가 | 이미지 추가 |
+
+<!-- 이미지 예시
+| 메인 화면 | 콘텐츠 상세 |
+|---|---|
+| <img src="./docs/images/main.png" width="400"> | <img src="./docs/images/content-detail.png" width="400"> |
+-->
+
+<br>
+
+## 🛠 기술 스택
+
+### Backend
+
+<p>
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=flat-square&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/QueryDSL-0769AD?style=flat-square" />
+</p>
+
+### Frontend
+
+<p>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+</p>
+
+### Database
+
+<p>
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+</p>
+
+### Tools
+
+<p>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" />
+  <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white" />
+</p>
+
+<br>
+
+## 🏗 시스템 아키텍처
+
+<!-- 시스템 구조 이미지를 추가하세요. -->
+
+```text
+React Client
+     │
+     │ REST API
+     ▼
+Spring Boot Server
+     │
+     ├── MariaDB
+     ├── Redis
+     ├── 외부 결제 API
+     ├── 이메일 SMTP
+     └── 외부 뉴스 API
+```
+
+<br>
+
+## 🗂 ERD
+
+<!-- ERDCloud 또는 이미지 링크 -->
+
+<p align="center">
+  <img src="ERD_이미지_URL" alt="Cineverse ERD" width="100%" />
+</p>
+
+<br>
+
+## 📁 프로젝트 구조
+
+### Backend
+
+```text
+src/main/java/com/cineverse/cineverse_backend
+├── domain
+│   ├── auth
+│   ├── content
+│   ├── dashboard
+│   ├── event
+│   ├── image
+│   ├── mail
+│   ├── news
+│   ├── notice
+│   ├── subscription
+│   ├── terms
+│   ├── user
+│   └── video
+└── global
+    ├── config
+    ├── entity
+    ├── exception
+    ├── scheduler
+    ├── security
+    └── util
+```
+
+### Frontend
+
+```text
+src
+├── api
+├── assets
+├── components
+├── hooks
+├── layouts
+├── pages
+├── routes
+├── store
+└── utils
+```
+
+실제 프론트엔드 구조에 맞게 수정하세요.
+
+<br>
+
+## 🔐 인증 흐름
+
+```text
+로그인 요청
+   ↓
+사용자 정보 검증
+   ↓
+Access Token 및 Refresh Token 발급
+   ↓
+Access Token으로 API 요청
+   ↓
+Access Token 만료 시 토큰 재발급
+```
+
+- Spring Security 기반 인증
+- JWT Access Token 및 Refresh Token 사용
+- Refresh Token을 Redis에 저장
+- HttpOnly Cookie를 통한 Refresh Token 전달
+
+실제 구현 방식과 다르다면 수정하세요.
+
+<br>
+
+## 💳 결제 흐름
+
+```text
+구독 상품 선택
+   ↓
+결제 요청 및 주문 생성
+   ↓
+토스페이먼츠 결제창 호출
+   ↓
+서버 결제 승인 요청
+   ↓
+결제 및 구독 정보 저장
+```
+
+<br>
+
+## 📡 주요 API
+
+| 기능 | Method | Endpoint |
+|---|---:|---|
+| 로그인 | `POST` | `/api/auth/login` |
+| 회원가입 | `POST` | `/api/auth/signup` |
+| 콘텐츠 목록 | `GET` | `/api/contents` |
+| 콘텐츠 상세 | `GET` | `/api/contents/{contentId}` |
+| 리뷰 작성 | `POST` | `/api/contents/{contentId}/reviews` |
+| 찜 추가 | `POST` | `/api/wishlists/{contentId}` |
+| 결제 승인 | `POST` | `/api/payments/confirm` |
+| 이벤트 목록 | `GET` | `/api/events` |
+| 공지사항 목록 | `GET` | `/api/notices` |
+
+실제 컨트롤러 경로에 맞게 수정하세요. 전체 API는 Swagger 문서로 연결해도 좋습니다.
+
+<br>
+
+## 🚀 실행 방법
+
+### 요구사항
+
+```text
+Java 버전
+Node.js 버전
+MariaDB 버전
+Redis 버전
+```
+
+### Backend
+
+```bash
+git clone https://github.com/sjrnfl1746/cineverse_backend.git
+cd cineverse_backend
+cp src/main/resources/application.yml.example src/main/resources/application.yml
+./gradlew bootRun
+```
+
+`application.yml`에 필요한 환경 설정을 입력해야 합니다.
+
+### Frontend
+
+```bash
+git clone https://github.com/sjrnfl1746/cineverse_frontend.git
+cd cineverse_frontend
+cp .env.example .env
+npm install
+npm run dev
+```
+
+<br>
+
+## ⚙️ 환경 설정
+
+### Backend
+
+```yaml
+spring:
+  datasource:
+    username:
+    password:
+
+  mail:
+    username:
+    password:
+
+jwt:
+  secret:
+
+toss:
+  payments:
+    secret-key:
+
+naver:
+  news:
+    client-id:
+    client-secret:
+```
+
+### Frontend
+
+```dotenv
+VITE_API_SERVER=
+VITE_TOSS_CLIENT_KEY=
+```
+
+실제 비밀번호와 Secret Key는 GitHub에 올리지 않습니다.
+
+<br>
+
+## 🧩 트러블슈팅
+
+### 문제 제목
+
+**문제**
+
+문제가 발생한 상황과 원인을 작성합니다.
+
+**해결**
+
+어떤 방식으로 분석하고 해결했는지 작성합니다.
+
+**결과**
+
+성능, 안정성 또는 코드 품질이 어떻게 개선됐는지 작성합니다.
+
+<br>
+
+## 🌱 개선 계획
+
+- [ ] 콘텐츠 스트리밍 성능 개선
+- [ ] 검색 기능 고도화
+- [ ] 개인화 콘텐츠 추천 기능
+- [ ] 운영 환경 배포
+- [ ] 테스트 코드 확대
+- [ ] CI/CD 구축
+- [ ] 모니터링 및 로깅 개선
+
+<br>
+
+## 🔗 Repository
+
+- [Cineverse Backend](https://github.com/sjrnfl1746/cineverse_backend)
+- [Cineverse Frontend](https://github.com/sjrnfl1746/cineverse_frontend)
+
+<br>
+
+## 📄 License
+
+```text
+작성 예정
+```
