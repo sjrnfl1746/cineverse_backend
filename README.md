@@ -261,7 +261,30 @@ Access Token 만료 시 토큰 재발급
 | 이벤트 목록 | `GET` | `/api/events` |
 | 공지사항 목록 | `GET` | `/api/notices` |
 
-실제 컨트롤러 경로에 맞게 수정하세요. 전체 API는 Swagger 문서로 연결해도 좋습니다.
+<br>
+
+### Swagger API Documentation
+
+전체 API 명세는 Swagger UI에서 확인할 수 있습니다.
+
+<p align="center">
+  <img src="./docs/images/swagger.png" alt="Cineverse Swagger API Documentation" width="100%" />
+</p>
+
+로컬에서 백엔드 서버를 실행한 다음 아래 주소로 접속합니다.
+
+```text
+http://localhost:8080/swagger-ui/index.html
+```
+
+Swagger에서는 다음 내용을 확인하고 테스트할 수 있습니다.
+
+- API 엔드포인트와 HTTP Method
+- 요청 파라미터 및 Request Body
+- 응답 데이터 구조
+- HTTP 상태 코드
+- JWT 인증이 필요한 API
+- API 직접 실행 및 응답 확인
 
 <br>
 
