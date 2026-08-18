@@ -230,8 +230,6 @@ Access Token 만료 시 토큰 재발급
 - Refresh Token을 Redis에 저장
 - HttpOnly Cookie를 통한 Refresh Token 전달
 
-실제 구현 방식과 다르다면 수정하세요.
-
 <br>
 
 ## 결제 흐름
