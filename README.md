@@ -145,7 +145,7 @@ Spring Boot Server
 <!-- ERDCloud 또는 이미지 링크 -->
 
 <p align="center">
-  <img src="ERD_이미지_URL" alt="Cineverse ERD" width="100%" />
+  <img width="2620" height="1702" alt="Image" src="https://github.com/user-attachments/assets/ca200071-548f-45bc-8099-1f44e36f1cb4" />
 </p>
 
 <br>
