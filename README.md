@@ -182,15 +182,16 @@ src/main/java/com/cineverse/cineverse_backend
 
 ```text
 src
-├── api
-├── assets
-├── components
-├── hooks
-├── layouts
-├── pages
-├── routes
-├── store
-└── utils
+├── api           # 서버 API 요청 및 응답 처리
+├── assets        # 이미지 로고 등 정적 리소스
+├── components    # 재사용 가능한 공통 UI 컴포넌트
+├── constants     # 어플리케이션 전역 상수
+├── hooks         # 재사용 가능한 커스텀 훅
+├── layouts       # 페이지 공통 레이아웃
+├── pages         # 라우트별 페이지 컴포넌트
+├── router        # 라우팅 경로 및 설정
+├── store         # 전역 상태 관리
+└── utils         # 공용 유틸리티 함수
 ```
 <br>
 
