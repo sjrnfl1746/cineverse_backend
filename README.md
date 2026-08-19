@@ -93,10 +93,13 @@ Cineverse는 사용자가 다양한 영화 콘텐츠를 탐색하고 이용할 �
 
 ### Frontend
 
-- React + Vite
+- React
+- Vite
 - JavaScript
-- TailwindCss
-- Node.js 24
+- Tailwind CSS
+- React Router
+- Axios
+- Zustand
 
 ### Database
 
@@ -110,6 +113,17 @@ Cineverse는 사용자가 다양한 영화 콘텐츠를 탐색하고 이용할 �
 - Swagger
 
 <br>
+
+### 주요 프론트엔드 라이브러리
+
+- React Router: 클라이언트 라우팅
+- Axios: HTTP API 통신
+- Zustand: 전역 상태 관리 및 Persist를 활용한 상태 유지
+- Tailwind CSS: UI 스타일링
+- React Icons: 아이콘
+- Sonner: 토스트 알람
+- React Daum Postcode: 주소 검색
+- Chart.js: 데이터 차트 시각화
 
 ## 시스템 아키텍처
 
@@ -209,8 +223,10 @@ Access Token 만료 시 토큰 재발급
 
 - Spring Security 기반 인증
 - JWT Access Token 및 Refresh Token 사용
-- Refresh Token을 Redis에 저장
+- Refresh Token을 Redis에 저장하고 만료 시간 설정
 - HttpOnly Cookie를 통한 Refresh Token 전달
+- RTR(Refresh Token Rotation) 방식을 적용하여 토큰 재발급 시 Refresh Token도 함께 교체
+- UUID 기반의 임의 문자열로 Refresh Token 생성
 
 <br>
 
