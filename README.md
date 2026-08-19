@@ -67,8 +67,7 @@ Cineverse는 사용자가 다양한 영화 콘텐츠를 탐색하고 이용할 �
 
 | 메인 화면 | 콘텐츠 상세 |
 |---|---|
-| 
-  <img width="2984" height="4298" alt="Cineverse" src="https://github.com/user-attachments/assets/9e9b8837-fa31-46ad-9970-6de3b60bac06" /> | 이미지 추가 |
+| <img width="2984" height="4298" alt="Cineverse" src="https://github.com/user-attachments/assets/9e9b8837-fa31-46ad-9970-6de3b60bac06" /> | 이미지 추가 |
 
 | 구독 및 결제 | 관리자 대시보드 |
 |---|---|
