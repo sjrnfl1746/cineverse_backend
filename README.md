@@ -85,6 +85,8 @@ Cineverse는 사용자가 다양한 영화 콘텐츠를 탐색하고 이용할 �
 
 ### Backend
 
+- JAVA 17, Spring Boot 3.5.16, Spring Security, Spring Data JPA, QueryDsl
+
 <p>
   <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
