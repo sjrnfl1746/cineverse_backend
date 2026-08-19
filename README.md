@@ -257,7 +257,7 @@ Access Token 만료 시 토큰 재발급
 전체 API 명세는 Swagger UI에서 확인할 수 있습니다.
 
 <p align="center">
-  <img src="./docs/images/swagger.png" alt="Cineverse Swagger API Documentation" width="100%" />
+  <img width="3510" height="2488" alt="Image" src="https://github.com/user-attachments/assets/a89097a6-320d-44ac-9424-8599b01f4121" />
 </p>
 
 로컬에서 백엔드 서버를 실행한 다음 아래 주소로 접속합니다.
