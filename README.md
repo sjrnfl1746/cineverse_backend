@@ -245,13 +245,10 @@ Access Token 만료 시 토큰 재발급
 |---|---:|---|
 | 로그인 | `POST` | `/api/auth/login` |
 | 회원가입 | `POST` | `/api/auth/signup` |
-| 콘텐츠 목록 | `GET` | `/api/contents` |
 | 콘텐츠 상세 | `GET` | `/api/contents/{contentId}` |
-| 리뷰 작성 | `POST` | `/api/contents/{contentId}/reviews` |
-| 찜 추가 | `POST` | `/api/wishlists/{contentId}` |
 | 결제 승인 | `POST` | `/api/payments/confirm` |
-| 이벤트 목록 | `GET` | `/api/events` |
-| 공지사항 목록 | `GET` | `/api/notices` |
+| 이벤트 목록 | `GET` | `/api/event` |
+| 공지사항 목록 | `GET` | `/api/notice` |
 
 <br>
 
@@ -367,18 +364,6 @@ VITE_TOSS_CLIENT_KEY=
 **결과**
 
 성능, 안정성 또는 코드 품질이 어떻게 개선됐는지 작성합니다.
-
-<br>
-
-## 개선 계획
-
-- [ ] 콘텐츠 스트리밍 성능 개선
-- [ ] 검색 기능 고도화
-- [ ] 개인화 콘텐츠 추천 기능
-- [ ] 운영 환경 배포
-- [ ] 테스트 코드 확대
-- [ ] CI/CD 구축
-- [ ] 모니터링 및 로깅 개선
 
 <br>
 
