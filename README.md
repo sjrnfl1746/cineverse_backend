@@ -345,8 +345,8 @@ naver:
 ### Frontend
 
 ```dotenv
-VITE_API_SERVER=
-VITE_TOSS_CLIENT_KEY=
+VITE_API_SERVER= backend api server
+VITE_TOSS_CLIENT_KEY= toss payments client key
 ```
 
 실제 비밀번호와 Secret Key는 GitHub에 올리지 않습니다.
