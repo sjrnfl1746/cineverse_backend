@@ -112,8 +112,6 @@ Cineverse는 사용자가 다양한 영화 콘텐츠를 탐색하고 이용할 �
 - Postman
 - Swagger
 
-<br>
-
 ### 주요 프론트엔드 라이브러리
 
 - React Router: 클라이언트 라우팅
@@ -124,6 +122,8 @@ Cineverse는 사용자가 다양한 영화 콘텐츠를 탐색하고 이용할 �
 - Sonner: 토스트 알람
 - React Daum Postcode: 주소 검색
 - Chart.js: 데이터 차트 시각화
+
+<br>
 
 ## 시스템 아키텍처
 
