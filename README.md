@@ -381,7 +381,9 @@ VITE_TOSS_CLIENT_KEY= toss payments client key
 ## 프로젝트 회고
 
 - Spring Security와 JWT를 활용한 인증 과정에서 단순히 토큰을 발급하는 것뿐만 아니라, Access Token과 Refresh Token의 역할을 분리하고 Redis를 이용해 Refresh Token을 관리하는 방법을 배웠습니다.
+
 - RTR 방식을 적용하며 기존 Refresh Token을 폐기하고 새로운 토큰으로 교체하는 과정을 통해 토큰 탈취와 재사용을 고려한 인증 설계의 중요성을 이해할 수 있었습니다.
+
 - 데이터 조회 기능에서는 Spring Data JPA의 메서드 기반 쿼리만으로 여러 검색 조건을 처리할 경우 코드가 복잡해지는 문제가 이었습니다. 이를 해결하기 위해 QueryDsl을 적용하고 검색 조건을 동적으로 조합하도록 구현하면서,
   요구사항 변경에 유연하게 대응할 수 있는 조회 구조를 설계하는 방법을 배웠습니다.
 
