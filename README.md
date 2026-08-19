@@ -318,24 +318,28 @@ npm run dev
 ```yaml
 spring:
   datasource:
-    username:
-    password:
+    username: DB username
+    password: DB password
 
   mail:
-    username:
-    password:
+    username: mail username
+    password: mail password
 
 jwt:
-  secret:
+  secret: jwt secret
+
+file:
+  upload:
+    root-path: file root path
 
 toss:
   payments:
-    secret-key:
+    secret-key: toss payments secret key
 
 naver:
   news:
-    client-id:
-    client-secret:
+    client-id: naver client id
+    client-secret: naver client secret key
 ```
 
 ### Frontend
