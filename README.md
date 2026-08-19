@@ -4,7 +4,7 @@
 
 <!-- 프로젝트 대표 이미지 또는 로고 -->
 <p align="center">
-  <img width="2984" height="4298" alt="Cineverse" src="https://github.com/user-attachments/assets/9e9b8837-fa31-46ad-9970-6de3b60bac06" />
+  <img width="800" height="495" alt="Image" src="https://github.com/user-attachments/assets/f3bfe235-25f4-47e3-87d6-623cbc56e12b" />
 </p>
 
 <br>
