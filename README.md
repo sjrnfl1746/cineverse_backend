@@ -85,7 +85,11 @@ Cineverse는 사용자가 다양한 영화 콘텐츠를 탐색하고 이용할 �
 
 ### Backend
 
-- JAVA 17, Spring Boot 3.5.16, Spring Security, Spring Data JPA, QueryDsl
+- JAVA 17
+- Spring Boot 3.5.16
+- Spring Security
+- Spring Data JPA
+- QueryDsl
 
 <p>
   <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
@@ -281,13 +285,13 @@ Swagger에서는 다음 내용을 확인하고 테스트할 수 있습니다.
 
 ## 실행 방법
 
-### 요구사항
+### 개발 및 테스트 환경
 
 ```text
-Java 버전
-Node.js 버전
-MariaDB 버전
-Redis 버전
+Java 17
+Node.js 24
+MariaDB 11.8
+Redis 8.4
 ```
 
 ### Backend
