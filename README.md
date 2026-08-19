@@ -5,7 +5,6 @@
 <!-- 프로젝트 대표 이미지 또는 로고 -->
 <p align="center">
   <img width="2984" height="4298" alt="Cineverse" src="https://github.com/user-attachments/assets/9e9b8837-fa31-46ad-9970-6de3b60bac06" />
-  <img src="프로젝트_대표_이미지_URL" alt="Cineverse" width="100%" />
 </p>
 
 <br>
@@ -30,17 +29,8 @@ Cineverse는 사용자가 다양한 영화 콘텐츠를 탐색하고 이용할 �
 
 ## 팀 구성
 
-| 이름 | 역할 | 담당 기능 |
-|---|---|---|
-| 이재욱 | Full-Stack | 회원 인증, 콘텐츠, 결제, 이벤트 |
-| 팀원 이름 | Backend | 담당 기능 |
-| 팀원 이름 | Frontend | 담당 기능 |
-
-<!-- 개인 프로젝트라면 아래처럼 작성 -->
-<!--
 - 개인 프로젝트
 - 기획, UI 구현, 백엔드 API 및 데이터베이스 설계
--->
 
 <br>
 
