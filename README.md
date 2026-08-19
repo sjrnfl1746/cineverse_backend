@@ -360,24 +360,6 @@ VITE_TOSS_CLIENT_KEY= toss payments client key
 
 <br>
 
-## 트러블슈팅
-
-### 문제 제목
-
-**문제**
-
-문제가 발생한 상황과 원인을 작성합니다.
-
-**해결**
-
-어떤 방식으로 분석하고 해결했는지 작성합니다.
-
-**결과**
-
-성능, 안정성 또는 코드 품질이 어떻게 개선됐는지 작성합니다.
-
-<br>
-
 ## 프로젝트 회고
 
 - Spring Security와 JWT를 활용한 인증 과정에서 단순히 토큰을 발급하는 것뿐만 아니라, Access Token과 Refresh Token의 역할을 분리하고 Redis를 이용해 Refresh Token을 관리하는 방법을 배웠습니다.
