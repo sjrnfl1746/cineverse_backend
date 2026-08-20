@@ -69,7 +69,7 @@ Cineverse는 사용자가 다양한 영화 콘텐츠를 탐색하고 이용할 �
 |---|---|
 | <img width="400" alt="Cineverse" src="https://github.com/user-attachments/assets/9e9b8837-fa31-46ad-9970-6de3b60bac06" /> | <img width="400" alt="Image" src="https://github.com/user-attachments/assets/7acb2986-1464-456d-a8ed-8269ba4f9ca4" /> |
 
-| 구독 및 결제 | 관리자 대시보드 |
+| 구독 플랜 | 관리자 대시보드 |
 |---|---|
 | <img width="400" alt="subscription" src="https://github.com/user-attachments/assets/fbdffd9d-e90a-4307-9c07-290aa8223a6f" /> | <img width="400" alt="dashboard" src="https://github.com/user-attachments/assets/0b02de61-831a-4a17-9978-41fb389a504b" /> |
 
